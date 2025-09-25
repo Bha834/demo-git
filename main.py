@@ -87,13 +87,13 @@ repo = Repo.init(repo_dir)
 print(f"Initialized repo at: {repo.working_tree_dir}")
 
 # -------- Create a sample file safely --------
-file_to_add = "sample.py"
+"""file_to_add = "sample.py"
 unique_file = get_unique_filename(repo_dir, file_to_add)
 file_path = os.path.join(repo_dir, unique_file)
 with open(file_path, "w") as f:
     f.write("print('Hello GitPython!')")
 
-print(f"File created: {unique_file}")
+print(f"File created: {unique_file}")"""
 
 # -------- Stage all .py files --------
 staged_files = []
